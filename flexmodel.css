@@ -49,8 +49,42 @@
     
 
 } 
+/* 
+*{
+    background-color: aqua;
+}
+h1{
+    color: red;
+} */
+/* 
+div p span{
+    background-color: yellowgreen;
+} */
+/* 
+h2 + h1{
+    color: red;
+} */
+
+/* span > h1{
+    background-color: red;
+} */
 
 
-p{
-   line-height: 5;
+/* 
+input[type="text"]{
+    background-color: yellow;
+}
+
+input[type="password"]{
+    background-color: red;
+} */
+
+/* button:hover{
+    background-color: yellow;
+    color: red;
+} */
+
+button:active{
+    background-color: yellow;
+    color: red;
 }
