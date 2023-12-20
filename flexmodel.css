@@ -1,39 +1,39 @@
-
+/* 
 .box1{
     width: 100px;
     height: 100px;
     background-color: yellowgreen;
     margin-bottom: 10px;
-    /* margin-right: 10px; */
-}
+    margin-right: 10px;
+} */
 
-.box2{
+/* .box2{
     width: 100px;
     height: 100px;
     background-color: rgb(205, 97, 50);
     margin-bottom: 10px;
-    /* margin-right: 10px; */
-}
-
+    margin-right: 10px;
+} */
+/* 
 .box3{
     width: 100px;
     height: 100px;
     background-color: rgb(50, 86, 205);
     margin-bottom: 10px;
-    /* margin-right: 10px; */
+    margin-right: 10px;
     
-}
-
+} */
+/* 
 .box4{
     width: 100px;
     height: 100px;
     background-color: rgb(97, 205, 50);
-}
-.container{
-    display: flex;
+} */
+/* .container{
+    display: flex; */
     /* flex-direction: row; */
     /* flex-direction: row-reverse; */
-    flex-direction: column;
+    /* flex-direction: column; */
     /* flex-direction: column-reverse;*/
     /* justify-content: flex-start; */
     /* justify-content: flex-start; */
@@ -48,7 +48,7 @@
     /* align-items: start; */
     
 
-} 
+/* }  */
 /* 
 *{
     background-color: aqua;
@@ -83,8 +83,109 @@ input[type="password"]{
     background-color: yellow;
     color: red;
 } */
-
+/* 
 button:active{
     background-color: yellow;
     color: red;
+}
+h1:active{
+    color: yellow;
+}
+h2:hover{
+    background-color: aqua;
+} */
+
+/* 
+h1::first-letter{
+    color: yellow;
+}
+h2::first-letter{
+    color: red;
+} */
+/* 
+h1::first-line{
+    color: red;
+} */
+/* 
+h1::selection{
+    color: chartreuse;
+    background-color: red;
+} */
+
+/* h2{
+    background-color: red;
+}
+h2{
+    background-color: yellow;
+} */
+/* h2{
+    background-color: blue;
+}
+.h{
+    background-color: yellow;
+}
+#bye{
+    background-color: red;
+} */
+
+/* 
+
+.h{
+    background-color: yellow;
+}
+h2{
+    background-color: blue !important;
+} */
+
+/* 
+h3{
+    background-color: rgba(255, 0, 0,0.6);
+} */
+/* h3{
+    background-color: yellow;
+    opacity: 1;
+} */
+/* 
+ .rotate{
+    width: 100px;
+    height: 100px;
+    background-color: yellowgreen;
+    transform: rotate(60deg);
+    transform: scale(2);
+}
+.rotate1{
+    width: 100px;
+    height: 100px;
+    background-color: yellowgreen;
+    
+}  */
+/* 
+.image{
+    background-image: url("bmw.png");
+    height: 400px;
+    width: 400px;
+    background-color: yellow;
+    background-size: cover;
+} */
+
+/* 
+p+h3{
+    background-color: red;
+    color: green;
+} */
+
+
+
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    transition: 4s;
+    transition-delay: 2s;
+    margin-top: 100px;
+    transition-timing-function: ease-out;
+}
+
+.box:hover{
+    background-color: red;
 }

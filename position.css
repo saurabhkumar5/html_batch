@@ -1,0 +1,13 @@
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    /* position: fixed; */
+    /* position: absolute; */
+    /* position: static; */
+    /* position: relative; */
+    /* top: 60px; */
+    /* bottom: 200px;
+    left: 100px; */
+    /* position: absolute; */
+}
