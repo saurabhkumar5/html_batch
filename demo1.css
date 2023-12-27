@@ -1,0 +1,19 @@
+h1{
+    background-color: rgba(255, 0, 0, 1);
+    width: 200px;
+    height: 200px;
+    
+}
+.box2{
+    background-color: yellow;
+}
+.box3{
+    background-color: green;
+}
+
+div{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+
+}
