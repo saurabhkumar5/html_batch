@@ -7,7 +7,7 @@
 
     //   console.log(std[1])
         //  console.log(std.length)
-        // console.log(std[0][1])
+        // console.log(std[0][0])
         // console.log(std[1][2])
 
         // let arr = []
@@ -40,3 +40,8 @@
 
     // console.log(std.indexOf(123))
 
+//includes
+
+// let arr = ["aman","aakash","suraj",123,"sgh"]
+
+// console.log(arr.includes("aakash"))
