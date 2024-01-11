@@ -10,3 +10,22 @@
 // 3.do while loop
 
 
+// syntax for loop
+
+// for(let i = 0; i<10; i++){   
+//     console.log("hello")
+// }
+
+// for(let i = 0; i<=30; i=i+3){
+//     console.log(i)
+// }
+
+// for(let i = 0; i<=10; i++){
+//     console.log(i*2)
+// }
+
+
+
+for(let i = 1; i<=15; i=i+2){
+    console.log(i)
+}
