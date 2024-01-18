@@ -123,6 +123,67 @@
         //       let b =  a(1,2)
         //       console.log(b)
 
-        
+    //  map function
+
+    // let arrr= [1,2,"sonam"]
+    // console.log(arrr)
+    
+    // let arr = [2,4,7,3,6]
+  
+
+    // arr.map((a,b)=>{
+    //       console.log(a/2)
+    // })
+
+    // arr.map((a,b,c)=>console.log(a,b,c))
+
+
+//     let arr = [2,4,7,3,6]
+//  let value =   arr.map((a,b)=>{
+//         return a/2
+//     })
+
+//     console.log(value)
+
+
+
+
+// let arr = [2,4,7,3,6]
+// let value =   arr.map((a,b)=>(
+//     a/2
+// ))
+
+//    console.log(value)
+
+
+
+// let arr = [2,4,7,3,6]
+// let value =   arr.map((a,b)=>a*2)
+
+//    console.log(value)
 
             
+
+// 2. filter
+
+// let arr = [2,8,6,3,45]
+
+// let value =  arr.filter((a,b)=>{
+//     if(a%2==0){
+//         return a
+//     }
+// })
+
+// console.log(value)
+
+
+// 3. sort function
+
+let arr = [1,8,6,3,4]
+
+  let value =   arr.sort((a,b)=>{
+        // return  a-b
+        return b-a
+     })
+
+     console.log(value)
