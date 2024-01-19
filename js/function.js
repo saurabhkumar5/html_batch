@@ -179,11 +179,33 @@
 
 // 3. sort function
 
-let arr = [1,8,6,3,4]
+// let arr = [1,8,6,3,4]
 
-  let value =   arr.sort((a,b)=>{
-        // return  a-b
-        return b-a
-     })
+//   let value =   arr.sort((a,b)=>{
+//         // return  a-b
+//         return b-a
+//      })
 
-     console.log(value)
+//      console.log(value)
+
+
+
+// 4.forEach function
+
+//    let arr = [1,2,3,4]
+
+//   let a  =arr.forEach(function (a,b){
+//     //    console.log(a/2)
+//        return a
+//    })
+
+//    console.log(a)
+
+
+// 5.reduce function
+
+
+let arr = [1,2,3,4]
+
+ let a = arr.reduce((a,b)=>a+b,18)
+ console.log(a)
